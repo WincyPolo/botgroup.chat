@@ -17,6 +17,13 @@ export const groups: Group[] = [
     members: [ 'ai8',  'ai6', 'ai7', 'ai9', 'ai10', 'ai5'],
     isGroupDiscussionMode: false
   },
+  {
+  id: 'group3',
+  name: '📋 AI需求预审会议室',
+  description: '🎯 角色分配：你是产品经理(需求发起人)；千问=产品经理(主持)；DeepSeek=系统架构师；智谱=全栈高级开发工程师；Kimi=高级测试工程师。输入你的需求文档，AI们会模拟真实评审场景，帮你发现潜在问题！',
+  members: ['ai6', 'ai7', 'ai8', 'ai9'],
+  isGroupDiscussionMode: true
+},
   /*
   {
     id: 'group2',
